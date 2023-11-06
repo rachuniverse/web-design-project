@@ -1,0 +1,52 @@
+.title p {
+    color: #b51b50;
+    font-weight: bold;
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    margin: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7c6d7;
+    font-family: Tahoma, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.header li {
+    list-style: none;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 18px;
+}
+.header a:hover {
+    color: #b51b50;
+}
+#home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-review {
+    padding: 20px;
+    flex: 1;
+}
+.home-review p {
+    font-family: Tahoma, sans-serif;
+    color: #b51b50;
+    font-size: 16;
+}
+.home-photo img {
+    max-width: 100%;
+    flex: 2;
+    pointer-events: none;
+    user-select: none;
+}
