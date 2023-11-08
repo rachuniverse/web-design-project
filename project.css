@@ -1,9 +1,11 @@
-.title p {
-    color: #b51b50;
+.title a {
+    color: #bc2157;
     font-weight: bold;
     font-family: "Brush Script MT", cursive;
     font-size: 50px;
-    margin: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 20px;
 }
 nav {
     display: flex;
@@ -22,12 +24,13 @@ nav {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 14px 18px;
+    padding-right: 40px;
 }
 .header a:hover {
-    color: #b51b50;
+    color: #bc2157;
 }
 #home-container {
+    background-color: #fffbed;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -37,16 +40,106 @@ nav {
 }
 .home-review {
     padding: 20px;
-    flex: 1;
+    flex: 2;
 }
 .home-review p {
     font-family: Tahoma, sans-serif;
-    color: #b51b50;
-    font-size: 16;
+    color: #bc2157;
+    font-size: 16px;
+}
+.home-photo {
+    flex: 5;
 }
 .home-photo img {
     max-width: 100%;
-    flex: 2;
+    height: auto;
     pointer-events: none;
     user-select: none;
+}
+#home-assessment {
+    padding: 10px 40px;
+    background-color: #e8d7f7;
+}
+#home-assessment p {
+    font-family: Tahoma, sans-serif;
+    color: #606060;
+    font-weight: bold;
+}
+.home-treatments {
+    display: flex;
+    justify-content: space-around;
+}
+.home-treatments li {
+    list-style: none;
+    color: #606060;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 50px 20px 0;
+}
+.home-quiz-button {
+    background-color: #bc2157;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+.home-quiz-button:hover {
+    background-color: #8a0936;
+}
+#home-products {
+    padding: 10px 40px;
+    background-color: #fffbed;
+}
+#home-products > p {
+    font-family: Tahoma, sans-serif;
+    color: #bc2157;
+    font-weight: bold;
+}
+#home-products-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.home-each-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+}
+.home-each-product img {
+    width: 250px;
+    height: auto;
+}
+.home-each-product a {
+    background-color: white;
+    display: block;
+    width: 80%;
+    text-align: center;
+    color: #73439e;
+    text-decoration: none;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    border: 2px solid #bd9adb;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.home-each-product a:hover {
+    background-color: #f6f0fa;
+}
+.home-each-product p {
+    font-family: Tahoma, sans-serif;
+    color: #606060;
 }
