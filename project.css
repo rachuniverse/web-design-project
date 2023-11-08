@@ -94,7 +94,7 @@ nav {
     background-color: #8a0936;
 }
 #home-products {
-    padding: 10px 40px;
+    padding: 10px 40px 30px;
     background-color: #fffbed;
 }
 #home-products > p {
@@ -142,4 +142,27 @@ nav {
 .home-each-product p {
     font-family: Tahoma, sans-serif;
     color: #606060;
+}
+#contact {
+    padding: 10px 40px 30px;
+    background-color: #f7c6d7;
+}
+#contact > p {
+    font-family: Tahoma, sans-serif;
+    color: white;
+    font-weight: bold; 
+}
+.fa {
+    padding: 15px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-linkedin {
+    background-color: #bc2157;
+    color: white;
+}
+
 }
