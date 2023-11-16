@@ -1,21 +1,153 @@
-<!-- skin assessment page -->
 <html>
     <head> 
         <link rel="stylesheet" href="project.css">
-        <title>Skin Assessment</title>
-        <link rel="icon" type="image" href="https://i.ibb.co/H7xBNR1/Screen-Shot-2023-10-31-at-5-52-00-PM.png">
+        <title>The Glow Guru</title>
+        <link rel="icon" type="image/png" href="https://i.ibb.co/cxcs6DJ/pink-bubble.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav>
-            <ul class = "header">
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "assessment.html">Skin Assessment</a></li>
-                <li><a href = "products.html">Skincare Products</a></li>
-                <li><a href = "recipes.html">DIY Recipes</a></li>
-                <li><a href = "recommendations.html">Recommended Sites</a></li>
-                <li><a href = "faq.html">FAQ</a></li>
-                <li><a href = "about.html">About Us</a></li>
+            <ul class="header">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="assessment.html">Skin Assessment</a></li>
+                <li><a href="products.html">Skincare Products</a></li>
+                <li><a href="recipes.html">DIY Recipes</a></li>
+                <li><a href="recommendations.html">Recommended Sites</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">About Us</a></li>
             </ul>
         </nav>
+        <form id="skincare-quiz">
+            <p>How would you describe your skin&quest;</p>
+            <div>
+                <input type="radio" name="skinType" value="a" id="dry-skin">
+                <label for="dry-skin">Dry</label>
+            </div>
+            <div>
+                <input type="radio" name="skinType" value="b" id="normal-skin">
+                <label for="normal-skin">Normal</label>
+            </div>
+            <div>
+                <input type="radio" name="skinType" value="c" id="oily-skin">
+                <label for="oily-skin">Oily</label>
+            </div>
+            <div>
+                <input type="radio" name="skinType" value="d" id="combo-skin">
+                <label for="combo-skin">Combination</label>
+            </div>
+            <p>What is your main skincare goal&quest;</p>
+            <div>
+                <input type="radio" name="skinConcern" value="a" id="dark-spots">
+                <label for="dark-spots">Erase Dark Spots</label>
+            </div>
+            <div>
+                <input type="radio" name="skinConcern" value="b" id="smooth-skin">
+                <label for="smooth-skin">Smooth Skin</label>
+            </div>
+            <div>
+                <input type="radio" name="skinConcern" value="c" id="shiny-skin">
+                <label for="shiny-skin">Minimize Shine</label>
+            </div>
+            <div>
+                <input type="radio" name="skinConcern" value="d" id="fight-acne">
+                <label for="fight-acne">Fight Acne</label>
+            </div>
+            <p>What product are you looking for&quest;</p>
+            <div>
+                <input type="radio" name="productType" value="a" id="moist-product">
+                <label for="moist-product">Moisturizer</label>
+            </div>
+            <div>
+                <input type="radio" name="productType" value="b" id="clean-product">
+                <label for="clean-product">Cleanser</label>
+            </div>
+            <div>
+                <input type="radio" name="productType" value="c" id="serum-product">
+                <label for="serum-product">Serum</label>
+            </div>
+            <div>
+                <input type="radio" name="productType" value="d" id="mask-product">
+                <label for="mask-product">Face Mask</label>
+            </div>
+            <input type="button" value="Get Results&excl;" class="quiz-submit" onclick="getResults()">
+        </form>
+        <div id="quiz-result"></div>
+        <script>
+            function getResults() {
+                const skinType = document.querySelector('input[name="skinType"]:checked').value;
+                const skinConcern = document.querySelector('input[name="skinConcern"]:checked').value;
+                const productType = document.querySelector('input[name="productType"]:checked').value;
+                const finalResult = skinType + skinConcern + productType;
+                document.getElementById("quiz-result").innerHTML = "Your recommended product is the " + productResult(finalResult) + "!";
+            }
+            function productResult(finalResult) {
+                const quizMap = {
+                    "aaa": "Hydrating Moisturizer",
+                    "aba": "Hydrating Moisturizer",
+                    "aca": "Hydrating Moisturizer",
+                    "ada": "Hydrating Moisturizer",
+                    "bca": "Oil-Free Moisturizer",
+                    "bda": "Oil-Free Moisturizer",
+                    "cca": "Oil-Free Moisturizer",
+                    "cda": "Oil-Free Moisturizer",
+                    "dca": "Oil-Free Moisturizer",
+                    "dda": "Oil-Free Moisturizer",
+                    "baa": "Repairing Moisturizer",
+                    "bba": "Repairing Moisturizer",
+                    "caa": "Repairing Moisturizer",
+                    "cba": "Repairing Moisturizer",
+                    "daa": "Repairing Moisturizer",
+                    "dba": "Repairing Moisturizer",
+                    "aab": "Sensitive Cleanser",
+                    "abb": "Sensitive Cleanser",
+                    "acb": "Sensitive Cleanser",
+                    "adb": "Sensitive Cleanser",
+                    "dab": "Sensitive Cleanser",
+                    "dbb": "Sensitive Cleanser",
+                    "dcb": "Sensitive Cleanser",
+                    "ddb": "Sensitive Cleanser",
+                    "bbb": "Acne Wash",
+                    "bdb": "Acne Wash",
+                    "cbb": "Acne Wash",
+                    "cdb": "Acne Wash",
+                    "bab": "Renewing Cleanser",
+                    "bcb": "Renewing Cleanser",
+                    "cab": "Renewing Cleanser",
+                    "ccb": "Renewing Cleanser",
+                    "adc": "Anti-Acne Serum",
+                    "bdc": "Anti-Acne Serum",
+                    "cdc": "Anti-Acne Serum",
+                    "ddc": "Anti-Acne Serum",
+                    "abc": "Retexturizing Serum",
+                    "bbc": "Retexturizing Serum",
+                    "cbc": "Retexturizing Serum",
+                    "dbc": "Retexturizing Serum",
+                    "aac": "Hydrating Serum",
+                    "bac": "Hydrating Serum",
+                    "cac": "Hydrating Serum",
+                    "dac": "Hydrating Serum",
+                    "acc": "Hydrating Serum",
+                    "bcc": "Hydrating Serum",
+                    "ccc": "Hydrating Serum",
+                    "dcc": "Hydrating Serum",
+                    "ccd": "Oil-Absorbing Mask",
+                    "cdd": "Oil-Absorbing Mask",
+                    "dcd": "Oil-Absorbing Mask",
+                    "ddd": "Oil-Absorbing Mask",
+                    "acd": "Hydro-Boost Mask",
+                    "add": "Hydro-Boost Mask",
+                    "bcd": "Hydro-Boost Mask",
+                    "bdd": "Hydro-Boost Mask",
+                    "dcd": "Hydro-Boost Mask",
+                    "ddd": "Hydro-Boost Mask",
+                    "aad": "Glow Mask",
+                    "abd": "Glow Mask",
+                    "bad": "Glow Mask",
+                    "bbd": "Glow Mask",
+                    "dad": "Glow Mask",
+                    "dbd": "Glow Mask",
+                };
+                return quizMap[finalResult];
+            }
+        </script>
     </body>
-</html>
