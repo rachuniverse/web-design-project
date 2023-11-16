@@ -164,34 +164,65 @@ nav {
     background-color: #bc2157;
     color: white;
 }
-
-.recipes-each-product {
-    box-sizing: border-box;
-    width: 30%; 
-    margin: 10px;
-    text-align: center;
-    background-color: white;
-    border: 1px solid #f7c6d7;
-    padding: 15px;
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover {
+    background-color: #8a0936;
 }
-
-.recipes-each-product img {
-    max-width: 100%;
-    height: 240px;
+.send-email {
+    padding-top: 20px;
 }
-
-#recipes-products-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.recipes-each-product h2 {
+.send-email label, textarea {
+    font-family: Tahoma, sans-serif;
     color: #606060;
+}
+.send-email input:nth-of-type(1), .send-email input:nth-of-type(2) {
+    width: 344px;
+}
+.send-email input:nth-of-type(3) {
+    background-color: #bc2157;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    width: 220px;
 }
-.recipes-each-product p {
+.send-email input:nth-of-type(3):hover {
+    background-color: #8a0936;
+}
+#skincare-quiz {
+    padding: 10px 25px 30px 25px;
+    background-color: #fffbed;
+}
+#skincare-quiz > p {
+    font-family: Tahoma, sans-serif;
+    color: #bc2157;
+    font-size: 16px;
+    font-weight: bold;
+}
+#skincare-quiz div {
     font-family: Tahoma, sans-serif;
     color: #606060;
+    font-size: 16px;
 }
-
+.quiz-submit {
+    background-color: #bc2157;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.quiz-submit:hover {
+    background-color: #8a0936;
+}
