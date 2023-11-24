@@ -20,68 +20,71 @@
                 <li><a href="about.html">About Us</a></li>
             </ul>
         </nav>
-        <form id="skincare-quiz">
-            <p>How would you describe your skin&quest;</p>
-            <div>
-                <input type="radio" name="skinType" value="a" id="dry-skin">
-                <label for="dry-skin">Dry</label>
-            </div>
-            <div>
-                <input type="radio" name="skinType" value="b" id="normal-skin">
-                <label for="normal-skin">Normal</label>
-            </div>
-            <div>
-                <input type="radio" name="skinType" value="c" id="oily-skin">
-                <label for="oily-skin">Oily</label>
-            </div>
-            <div>
-                <input type="radio" name="skinType" value="d" id="combo-skin">
-                <label for="combo-skin">Combination</label>
-            </div>
-            <p>What is your main skincare goal&quest;</p>
-            <div>
-                <input type="radio" name="skinConcern" value="a" id="dark-spots">
-                <label for="dark-spots">Erase Dark Spots</label>
-            </div>
-            <div>
-                <input type="radio" name="skinConcern" value="b" id="smooth-skin">
-                <label for="smooth-skin">Smooth Skin</label>
-            </div>
-            <div>
-                <input type="radio" name="skinConcern" value="c" id="shiny-skin">
-                <label for="shiny-skin">Minimize Shine</label>
-            </div>
-            <div>
-                <input type="radio" name="skinConcern" value="d" id="fight-acne">
-                <label for="fight-acne">Fight Acne</label>
-            </div>
-            <p>What product are you looking for&quest;</p>
-            <div>
-                <input type="radio" name="productType" value="a" id="moist-product">
-                <label for="moist-product">Moisturizer</label>
-            </div>
-            <div>
-                <input type="radio" name="productType" value="b" id="clean-product">
-                <label for="clean-product">Cleanser</label>
-            </div>
-            <div>
-                <input type="radio" name="productType" value="c" id="serum-product">
-                <label for="serum-product">Serum</label>
-            </div>
-            <div>
-                <input type="radio" name="productType" value="d" id="mask-product">
-                <label for="mask-product">Face Mask</label>
-            </div>
-            <input type="button" value="Get Results&excl;" class="quiz-submit" onclick="getResults()">
-        </form>
-        <div id="quiz-result"></div>
+        <div>
+            <form id="skincare-quiz">
+                <p>How would you describe your skin&quest;</p>
+                <div>
+                    <input type="radio" name="skinType" value="a" id="dry-skin">
+                    <label for="dry-skin">Dry</label>
+                </div>
+                <div>
+                    <input type="radio" name="skinType" value="b" id="normal-skin">
+                    <label for="normal-skin">Normal</label>
+                </div>
+                <div>
+                    <input type="radio" name="skinType" value="c" id="oily-skin">
+                    <label for="oily-skin">Oily</label>
+                </div>
+                <div>
+                    <input type="radio" name="skinType" value="d" id="combo-skin">
+                    <label for="combo-skin">Combination</label>
+                </div>
+                <p>What is your main skincare goal&quest;</p>
+                <div>
+                    <input type="radio" name="skinConcern" value="a" id="dark-spots">
+                    <label for="dark-spots">Erase Dark Spots</label>
+                </div>
+                <div>
+                    <input type="radio" name="skinConcern" value="b" id="smooth-skin">
+                    <label for="smooth-skin">Smooth Skin</label>
+                </div>
+                <div>
+                    <input type="radio" name="skinConcern" value="c" id="shiny-skin">
+                    <label for="shiny-skin">Minimize Shine</label>
+                </div>
+                <div>
+                    <input type="radio" name="skinConcern" value="d" id="fight-acne">
+                    <label for="fight-acne">Fight Acne</label>
+                </div>
+                <p>What product are you looking for&quest;</p>
+                <div>
+                    <input type="radio" name="productType" value="a" id="moist-product">
+                    <label for="moist-product">Moisturizer</label>
+                </div>
+                <div>
+                    <input type="radio" name="productType" value="b" id="clean-product">
+                    <label for="clean-product">Cleanser</label>
+                </div>
+                <div>
+                    <input type="radio" name="productType" value="c" id="serum-product">
+                    <label for="serum-product">Serum</label>
+                </div>
+                <div>
+                    <input type="radio" name="productType" value="d" id="mask-product">
+                    <label for="mask-product">Face Mask</label>
+                </div>
+                <input type="button" value="Get Results&excl;" class="quiz-submit" onclick="getResults()">
+            </form>
+        </div>
         <script>
             function getResults() {
                 const skinType = document.querySelector('input[name="skinType"]:checked').value;
                 const skinConcern = document.querySelector('input[name="skinConcern"]:checked').value;
                 const productType = document.querySelector('input[name="productType"]:checked').value;
                 const finalResult = skinType + skinConcern + productType;
-                document.getElementById("quiz-result").innerHTML = "Your recommended product is the " + productResult(finalResult) + "!";
+                const displayResult = document.getElementById("quiz-result");
+                displayResult.innerHTML = "Your recommended product is the " + productResult(finalResult) + "! <br><a href='products.html' class='quiz-product-link'>Shop this product here</a>";
+                displayResult.className = "quiz-display-result";
             }
             function productResult(finalResult) {
                 const quizMap = {
@@ -153,4 +156,26 @@
                 return quizMap[finalResult];
             }
         </script>
+        <div id="quiz-result"></div>
+        <div id="contact">
+            <p>Get in touch!</p>
+            <div class="socials">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <div class="send-email">
+                <form action="contact.html" method="post">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
     </body>
+</html>
