@@ -6,6 +6,9 @@
         <link rel="icon" type="image" href="https://i.ibb.co/H7xBNR1/Screen-Shot-2023-10-31-at-5-52-00-PM.png">
     </head>
     <body>
+		<div class="title">
+			<a href=index.html>The Glow Guru</a>
+		</div>
         <nav>
             <ul class = "header">
                 <li><a href = "index.html">Home</a></li>
@@ -17,25 +20,58 @@
                 <li><a href = "about.html">About Us</a></li>
             </ul>
         </nav>
+		<div class="page-title">
         <header>
-            <h1>About Us</h1>
+            <h1>Frequently Asked Questions</h1>
         </header>
+		</div>
+		<div class="page-content">
         <main>
+		<div id="faq-container">
             <section>
-                <h2></h2>
-                <p></p>
+                <h2>What is a "skincare assessment?"</h2>
+					<p>Our skincare assessment is our way of identifying your skin's needs and compiling a solution based on your answers to curated questions. Our questionnares are based on real research and the most up-to-date skincare information!</p>
             </section>
             <section>
-                <h2></h2>
-                <p></p>
+                <h2>How are my results calculated?</h2>
+					<p>Your results are calculated by creating a kind of individual "skin profile" for you based on your answers, and matching you to products effective for your skin profile.</p>
             </section>
             <section>
-                <h2></h2>
-                <p></p>
+                <h2>What are my results based on?</h2>
+					<p>Your results are based on the most recent information accessible regarding skincare- we parse the research so you don't have to!</p>
             </section>
+			<section>
+				<h2>What other features are on this site?</h2>
+					<p>Along with our lauded skin assessment, we also post our own product reviews and DIY recipes!</p>
+			</section>
+			<section>
+				<h2>Can you review this product?</h2>
+					<p>Yes! If you have a product you'd like us to investigate- it can be one you recommend, or one you are curious about- shoot us an email and we just might post a review!</p>
+			</section>
+			<section>
+			</div>
+				<h2>Have a question you can't find an answer to? Ask away below!</h2>
+				<br>
+				<form action="action_page.php" method="post">
+					<label for="askbox" id="input-label">Ask Box</label>
+					<br>
+					<textarea minlength= "1" id="askbox" name="askbox" placeholder="Type here..."></textarea>	
+					<br>
+					<input type="submit" class="submit-button" value="Submit">
+				</form>
+			</section>
         </main>
+		</div>
         <footer>
-
+		<div id="contact">
+            <p>Get in touch!</p>
+            <div class="socials">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
         </footer>
     </body>
 </html>
