@@ -309,3 +309,110 @@ nav {
     font-family: Tahoma, sans-serif;
     color: #606060;
 }
+
+.page-title {
+	display: flex;
+	padding: 10px 40px;
+    background-color: #e8d7f7;
+	border-style: solid;
+	border-color: #fffbed;
+	border-width: 20px 0px 0px 0px;
+}
+
+.page-title h1 {
+    color: #606060;
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.page-content {
+	background-color: #fffbed;
+	padding: 20px 80px;
+	font-family: Tahoma, sans-serif;
+	line-height: 180%;
+}
+
+.about-grid-container {
+	display: grid;
+	grid-template-columns: 42% 42%;
+	column-gap: 50px;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+#writers-grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	column-gap: 5%;
+	text-align: left;
+	padding: 10px 0px 0px 0px;
+}
+
+#our-writers h2{
+	text-align: center;
+}
+
+#faq-container {
+	display: grid;
+	grid-template-columns: 50%;
+	padding: 0px 0px 20px 0px;
+}
+
+.page-content h2 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #606060;
+}
+
+.page-content p {
+	font-size:  16px;
+	font-weight: normal;
+}
+
+.page-content h3 {
+	font-weight: bold;
+	color: #606060;
+}
+
+.submit-button {
+	font-size: 16px;
+    background-color: #bc2157;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 18px;
+	margin-left: 40%
+}
+.submit-button:hover {
+    background-color: #8a0936;
+}
+
+#askbox {
+	width: 50%;
+	height: 150px;
+	font-size: 16px;
+	padding: 15px 20px;
+	margin: 20px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+#input-label {
+	font-size: 25px;
+	font-weight: bold;
+	color: #bc2157;
+}
+
+.author-img {
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 100%;
+}
