@@ -311,6 +311,11 @@ nav {
     color: #606060;
 }
 
+.recommendations-each-site iframe {
+    max-width: 100%;
+    height: 500px;
+}
+
 .link-paragraph p {
 	align-items: flex-end; 
 }
