@@ -285,13 +285,16 @@ nav {
 }
 .recommendations-each-site {
     box-sizing: border-box;
-    width: 30%; 
+    width: 480px;
+	height: auto;
+	overflow: auto;
     margin: 10px;
     text-align: center;
     background-color: white;
     border: 1px solid #f7c6d7;
     padding: 15px;
 }
+
 .recommendations-each-site img {
     max-width: 100%;
     height: auto;
