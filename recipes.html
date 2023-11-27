@@ -1,12 +1,15 @@
 <!-- recipes page -->
 <!DOCTYPE html>
-<html>
-    <head> 
-        <link rel="stylesheet" href="project.css">
-        <title>The Glow Guru</title>
-        <link rel="icon" type="image/png" href="https://i.ibb.co/cxcs6DJ/pink-bubble.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="description" content="The Glow Guru answers frequently asked questions about our site and our skincare assessment quiz. Submit questions and product review suggestions here.">
+	<meta name="keywords" content="DIY skincare recipes, online skincare quiz, skincare products, skincare help">
+	<title>The Glow Guru</title>
+	<link rel="stylesheet" href="project.css">
+	<link rel="icon" type="image/png" href="https://i.ibb.co/cxcs6DJ/pink-bubble.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
     <body>
         <div class="title">
             <a href="index.html">The Glow Guru</a>
@@ -69,6 +72,17 @@
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <div class="send-email">
+                <form action="contact.html" method="post">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Send Message">
+                </form>
             </div>
         </div>
     </body>
