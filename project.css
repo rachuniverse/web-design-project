@@ -425,19 +425,18 @@ iframe {
 	color: #bc2157;
 }
 
-input[type=text] {
+.input-type {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-input[type=email] {
+.input-email {
   padding: 12px 20px;
   margin: 8px 0 20px 0px;
   box-sizing: border-box;
   font-size: 16px;
-}
 
 .red {
 	color: red;
