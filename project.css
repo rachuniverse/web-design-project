@@ -395,6 +395,10 @@ nav {
     color: #606060;
 }
 
+.link-paragraph p {
+	align-items: flex-end; 
+}
+
 .page-title {
 	display: flex;
 	padding: 10px 40px;
