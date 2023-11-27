@@ -315,6 +315,10 @@ nav {
 	align-items: flex-end; 
 }
 
+iframe {
+	border: 0;
+}
+
 .page-title {
 	display: flex;
 	padding: 10px 40px;
