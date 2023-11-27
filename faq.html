@@ -53,9 +53,19 @@
 				<h2>Have a question you can't find an answer to? Ask away below!</h2>
 				<br>
 				<form action="action_page.php" method="post">
+					<label for="firstName" id="firstName">First Name<span class="red">*</span><label>
+					<br>
+					<input type="text" id="firstName" name="firstName" required>
+					<br>					
+					<label for="email">Email<span class="red">*</span></label>
+					<br>
+					<input type="email" id="email" name="email">
+					<br>
 					<label for="askbox" id="input-label">Ask Box</label>
 					<br>
-					<textarea minlength= "1" id="askbox" name="askbox" placeholder="Type here..."></textarea>	
+					<textarea minlength= "1" id="askbox" name="askbox" placeholder="Type here..." required></textarea>	
+					<br>
+					<span class="red">*</span> = required.
 					<br>
 					<input type="submit" class="submit-button" value="Submit">
 				</form>
