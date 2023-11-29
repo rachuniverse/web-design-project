@@ -287,17 +287,17 @@ nav {
     color: #bc2157;
 }
 .recommendations-each-site-sum {
-    text-indent: 1em;    
-    font-family: Tahoma, sans-serif;
+	text-indent: 1em;
+	font-family: Tahoma, sans-serif;
     color: #606060;
-    width: 110%; 
+	width: 110%; 
     margin: 10px;
     padding: 15px;
-    display: grid;
-    grid-template-columns: 45% 45%;
-    column-gap: 50px;
-    justify-content: center;
-    padding-bottom: 20px;
+	display: grid;
+	grid-template-columns: 45% 45%;
+	column-gap: 50px;
+	justify-content: center;
+	padding-bottom: 20px;
 }
 .recommendations-each-site {
     box-sizing: border-box;
@@ -311,10 +311,27 @@ nav {
 }
 
 .recommendations-each-site img {
-    max-width: 430px;
-    max-height: 400px;
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
 }
+
+.recommendations-each-site:hover {
+    background-color: #f7c6d7;
+    border: 3px solid white;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#recommendedimg {
+	border-radius: 20px;
+    border: 3px solid #f7c6d7;
+}
+
+#recommendedimg:hover {
+    border: 3px solid white;
+}
+
 #recommended-sites {
     display: flex;
     flex-wrap: wrap;
