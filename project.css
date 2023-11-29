@@ -10,7 +10,7 @@
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #f7c6d7;
+    background-color: #ed4781;
     font-family: Tahoma, sans-serif;
 }
 .header {
@@ -27,7 +27,7 @@ nav {
     padding-right: 40px;
 }
 .header a:hover {
-    color: #bc2157;
+    color: #8a0936;
 }
 #home-container {
     background-color: #fffbed;
@@ -62,7 +62,7 @@ nav {
 }
 #home-assessment p {
     font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
     font-weight: bold;
 }
 .home-treatments {
@@ -71,7 +71,7 @@ nav {
 }
 .home-treatments li {
     list-style: none;
-    color: #606060;
+    color: #4c4c4c;
     font-family: Tahoma, sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -141,7 +141,7 @@ nav {
 }
 .home-each-product p {
     font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
 }
 #contact {
     padding: 10px 40px 30px;
@@ -149,7 +149,7 @@ nav {
 }
 #contact > p {
     font-family: Tahoma, sans-serif;
-    color: white;
+    color: #4c4c4c;
     font-weight: bold; 
 }
 .fa {
@@ -172,7 +172,7 @@ nav {
 }
 .send-email label, textarea {
     font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
 }
 .send-email input:nth-of-type(1), .send-email input:nth-of-type(2) {
     width: 344px;
@@ -207,7 +207,7 @@ nav {
 }
 #skincare-quiz div {
     font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
     font-size: 16px;
 }
 .quiz-submit {
@@ -238,7 +238,7 @@ nav {
 }
 .quiz-product-link {
     text-decoration: none;
-    color: #606060;
+    color: #4c4c4c;
     font-weight: normal;
 }
 .quiz-product-link:hover {
@@ -274,13 +274,13 @@ nav {
     justify-content: space-between;
 }
 .recipes-each-product h2 {
-    color: #606060;
+    color: #4c4c4c;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
 }
 .recipes-each-product p {
     font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
 }
 #recommended-site-links > ul {
     font-family: Tahoma, sans-serif;
@@ -289,7 +289,7 @@ nav {
 .recommendations-each-site-sum {
 	text-indent: 1em;
 	font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
 	width: 110%; 
     margin: 10px;
     padding: 15px;
@@ -338,13 +338,13 @@ nav {
     justify-content: space-between;
 }
 .recommendations-each-site h2 {
-    color: #606060;
+    color: #4c4c4c;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
 }
 .recommendations-each-site p {
     font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
 }
 
 .recommendations-each-site iframe {
@@ -370,7 +370,7 @@ iframe {
 }
 
 .page-title h1 {
-    color: #606060;
+    color: #4c4c4c;
     font-family: Tahoma, sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -413,7 +413,7 @@ iframe {
 .page-content h2 {
 	font-size: 25px;
 	font-weight: bold;
-	color: #606060;
+	color: #4c4c4c;
 }
 
 .page-content p {
@@ -423,7 +423,7 @@ iframe {
 
 .page-content h3 {
 	font-weight: bold;
-	color: #606060;
+	color: #4c4c4c;
 }
 
 .submit-button {
@@ -459,7 +459,7 @@ iframe {
 	font-size: 16px;
 	font-weight: bold;
 	color: #bc2157;
-    	font-family: Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
 }
 
 .input-type {
@@ -507,7 +507,7 @@ th {
 
 .cell-label {
 	background-color: #fffbed;
-	color: #606060;
+	color: #4c4c4c;
 	font-size: 16px;
 	font-weight: bold;
 	text-align: left;
@@ -608,7 +608,7 @@ th {
 	text-align: center;
 	font-weight: bold;
 	font-family: Tahoma, sans-serif;
-	color: #606060;
+	color: #4c4c4c;
     font-size: 12px;
 }
 
@@ -620,7 +620,7 @@ th {
 	border-style: solid;
 	border-color: #fffbed;
 	border-width: 20px 0px 0px 0px;
-	color: #606060;
+	color: #4c4c4c;
 	font-family: Tahoma, sans-serif;
 	font-size: 30px;
 	font-weight: bold;
@@ -643,13 +643,13 @@ th {
 }
 .submission-content h1 {
     font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
     font-size: 16px;
     font-weight: bold;
 }
 .submission-content p {
     font-family: Tahoma, sans-serif;
-    color: #606060;
+    color: #4c4c4c;
     font-size: 16px;
 }
 .submission-content button {
