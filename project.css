@@ -287,6 +287,7 @@ nav {
     color: #bc2157;
 }
 .recommendations-each-site-sum {
+    text-indent: 1em;    
     font-family: Tahoma, sans-serif;
     color: #606060;
     width: 110%; 
