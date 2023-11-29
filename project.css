@@ -115,7 +115,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 5px;
+    padding: 20px;
 }
 .home-each-product img {
     width: 250px;
@@ -615,3 +615,6 @@ th {
     color: #bc2157;
     font-weight: bold;
 }
+
+
+
