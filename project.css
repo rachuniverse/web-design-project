@@ -636,3 +636,34 @@ th {
     font-weight: bold;
     padding: 10px 40px 30px;
 }
+.submission-content {
+    padding: 10px 40px 30px;
+    background-color: #fffbed;
+}
+.submission-content h1 {
+    font-family: Tahoma, sans-serif;
+    color: #606060;
+    font-size: 16px;
+    font-weight: bold;
+}
+.submission-content p {
+    font-family: Tahoma, sans-serif;
+    color: #606060;
+    font-size: 16px;
+}
+.submission-content button {
+    background-color: #bc2157;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.submission-content button:hover {
+    background-color: #8a0936;
+}
