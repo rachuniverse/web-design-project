@@ -2,7 +2,7 @@
     color: #bc2157;
     font-weight: bold;
     font-family: "Brush Script MT", cursive;
-    font-size: 3.125rem;
+    font-size: 50px;
     text-decoration: none;
     display: inline-block;
     margin: 8px 20px;
@@ -44,8 +44,8 @@ nav {
 }
 .home-review p {
     font-family: Tahoma, sans-serif;
-    color: #ed4781;
-    font-size: 1rem;
+    color: #bc2157;
+    font-size: 16px;
 }
 .home-photo {
     flex: 5;
@@ -73,12 +73,12 @@ nav {
     list-style: none;
     color: #4c4c4c;
     font-family: Tahoma, sans-serif;
-    font-size: 1.563rem;
+    font-size: 25px;
     font-weight: bold;
     padding: 20px 50px 20px 0;
 }
 .home-quiz-button {
-    background-color: #ed4781;
+    background-color: #bc2157;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -91,7 +91,7 @@ nav {
     margin-bottom: 18px;
 }
 .home-quiz-button:hover {
-    background-color: #bc2157;
+    background-color: #8a0936;
 }
 #home-products {
     padding: 10px 40px 30px;
@@ -99,7 +99,7 @@ nav {
 }
 #home-products > p {
     font-family: Tahoma, sans-serif;
-    color: #ed4781;
+    color: #bc2157;
     font-weight: bold;
 }
 #home-products-list {
@@ -161,11 +161,11 @@ nav {
     margin-right: 5px;
 }
 .fa-facebook, .fa-instagram, .fa-twitter, .fa-linkedin {
-    background-color: #ed4781;
+    background-color: #bc2157;
     color: white;
 }
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover {
-    background-color: #bc2157;
+    background-color: #8a0936;
 }
 .send-email {
     padding-top: 20px;
@@ -178,7 +178,7 @@ nav {
     width: 344px;
 }
 .send-email input:nth-of-type(3) {
-    background-color: #ed4781;
+    background-color: #bc2157;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -192,7 +192,7 @@ nav {
     width: 220px;
 }
 .send-email input:nth-of-type(3):hover {
-    background-color: #bc2157;
+    background-color: #8a0936;
 }
 #skincare-quiz {
     padding: 10px 40px 30px;
@@ -201,17 +201,17 @@ nav {
 }
 #skincare-quiz > p {
     font-family: Tahoma, sans-serif;
-    color: #ed4781;
-    font-size: 1rem;
+    color: #bc2157;
+    font-size: 16px;
     font-weight: bold;
 }
 #skincare-quiz div {
     font-family: Tahoma, sans-serif;
     color: #4c4c4c;
-    font-size: 1rem;
+    font-size: 16px;
 }
 .quiz-submit {
-    background-color: #ed4781;
+    background-color: #bc2157;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -222,17 +222,17 @@ nav {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: 16px;
 }
 .quiz-submit:hover {
-    background-color: #bc2157;
+    background-color: #8a0936;
 }
 #quiz-result {
     background-color: #fffbed;
     padding: 0 40px 30px 40px;
 }
 .quiz-display-result {
-    color: #ed4781;
+    color: #bc2157;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -284,7 +284,7 @@ nav {
 }
 #recommended-site-links > ul {
     font-family: Tahoma, sans-serif;
-    color: #ed4781;
+    color: #bc2157;
 }
 .recommendations-each-site-sum {
 	text-indent: 1em;
@@ -372,7 +372,7 @@ iframe {
 .page-title h1 {
     color: #4c4c4c;
     font-family: Tahoma, sans-serif;
-    font-size: 1.875rem;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -411,13 +411,13 @@ iframe {
 }
 
 .page-content h2 {
-	font-size: 1.563rem;
+	font-size: 25px;
 	font-weight: bold;
 	color: #4c4c4c;
 }
 
 .page-content p {
-	font-size:  1rem;
+	font-size:  16px;
 	font-weight: normal;
 }
 
@@ -427,8 +427,8 @@ iframe {
 }
 
 .submit-button {
-	font-size: 1rem;
-    background-color: #ed4781;
+	font-size: 16px;
+    background-color: #bc2157;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -442,13 +442,13 @@ iframe {
 	margin-left: 40%
 }
 .submit-button:hover {
-    background-color: #bc2157;
+    background-color: #8a0936;
 }
 
 #askbox {
 	width: 50%;
 	height: 150px;
-	font-size: 1rem;
+	font-size: 16px;
 	padding: 15px 20px;
 	margin: 20px 0px;
 	box-sizing: border-box;
@@ -456,9 +456,9 @@ iframe {
 }
 
 #input-label {
-	font-size: 1.563rem;
+	font-size: 16px;
 	font-weight: bold;
-	color: #ed4781;
+	color: #bc2157;
     font-family: Tahoma, sans-serif;
 }
 
@@ -466,14 +466,14 @@ iframe {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .input-email {
   padding: 12px 20px;
   margin: 8px 0 20px 0px;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .red {
@@ -500,15 +500,15 @@ table {
 }
 
 th {
-	background-color: #ed4781;
+	background-color: #bc2157;
 	color: white;
-	font-size: 1.125rem;
+	font-size: 18px;
 }
 
 .cell-label {
 	background-color: #fffbed;
 	color: #4c4c4c;
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: bold;
 	text-align: left;
 }
@@ -517,11 +517,6 @@ th {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#custom-footer {
-	padding: 10px 40px 60px;
-    background-color: #f7c6d7
 }
 
 #intro-text {
@@ -614,7 +609,7 @@ th {
 	font-weight: bold;
 	font-family: Tahoma, sans-serif;
 	color: #4c4c4c;
-    font-size: 0.75rem;
+    font-size: 12px;
 }
 
 
@@ -627,7 +622,7 @@ th {
 	border-width: 20px 0px 0px 0px;
 	color: #4c4c4c;
 	font-family: Tahoma, sans-serif;
-	font-size: 1.875rem;
+	font-size: 30px;
 	font-weight: bold;
 }
 
@@ -638,7 +633,7 @@ th {
 
 #product-description {
     font-family: Tahoma, sans-serif;
-    color: #ed4781;
+    color: #bc2157;
     font-weight: bold;
     padding: 10px 40px 30px;
 }
@@ -649,16 +644,16 @@ th {
 .submission-content h1 {
     font-family: Tahoma, sans-serif;
     color: #4c4c4c;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: bold;
 }
 .submission-content p {
     font-family: Tahoma, sans-serif;
     color: #4c4c4c;
-    font-size: 1rem;
+    font-size: 16px;
 }
 .submission-content button {
-    background-color: #ed4781;
+    background-color: #bc2157;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -668,8 +663,8 @@ th {
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 16px;
 }
 .submission-content button:hover {
-    background-color: #bc2157;
+    background-color: #8a0936;
 }
