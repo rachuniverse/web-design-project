@@ -44,7 +44,7 @@ nav {
 }
 .home-review p {
     font-family: Tahoma, sans-serif;
-    color: #bc2157;
+    color: #ed4781;
     font-size: 1rem;
 }
 .home-photo {
@@ -78,7 +78,7 @@ nav {
     padding: 20px 50px 20px 0;
 }
 .home-quiz-button {
-    background-color: #bc2157;
+    background-color: #ed4781;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -99,7 +99,7 @@ nav {
 }
 #home-products > p {
     font-family: Tahoma, sans-serif;
-    color: #bc2157;
+    color: #ed4781;
     font-weight: bold;
 }
 #home-products-list {
@@ -161,7 +161,7 @@ nav {
     margin-right: 5px;
 }
 .fa-facebook, .fa-instagram, .fa-twitter, .fa-linkedin {
-    background-color: #bc2157;
+    background-color: #ed4781;
     color: white;
 }
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover {
@@ -178,7 +178,7 @@ nav {
     width: 344px;
 }
 .send-email input:nth-of-type(3) {
-    background-color: #bc2157;
+    background-color: #ed4781;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -201,7 +201,7 @@ nav {
 }
 #skincare-quiz > p {
     font-family: Tahoma, sans-serif;
-    color: #bc2157;
+    color: #ed4781;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -211,7 +211,7 @@ nav {
     font-size: 1rem;
 }
 .quiz-submit {
-    background-color: #bc2157;
+    background-color: #ed4781;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -232,7 +232,7 @@ nav {
     padding: 0 40px 30px 40px;
 }
 .quiz-display-result {
-    color: #bc2157;
+    color: #ed4781;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -284,7 +284,7 @@ nav {
 }
 #recommended-site-links > ul {
     font-family: Tahoma, sans-serif;
-    color: #bc2157;
+    color: #ed4781;
 }
 .recommendations-each-site-sum {
 	text-indent: 1em;
@@ -428,7 +428,7 @@ iframe {
 
 .submit-button {
 	font-size: 1rem;
-    background-color: #bc2157;
+    background-color: #ed4781;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
@@ -458,7 +458,7 @@ iframe {
 #input-label {
 	font-size: 1.563rem;
 	font-weight: bold;
-	color: #bc2157;
+	color: #ed4781;
     font-family: Tahoma, sans-serif;
 }
 
@@ -500,7 +500,7 @@ table {
 }
 
 th {
-	background-color: #bc2157;
+	background-color: #ed4781;
 	color: white;
 	font-size: 1.125rem;
 }
@@ -633,7 +633,7 @@ th {
 
 #product-description {
     font-family: Tahoma, sans-serif;
-    color: #bc2157;
+    color: #ed4781;
     font-weight: bold;
     padding: 10px 40px 30px;
 }
@@ -653,7 +653,7 @@ th {
     font-size: 1rem;
 }
 .submission-content button {
-    background-color: #bc2157;
+    background-color: #ed4781;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     color: white;
