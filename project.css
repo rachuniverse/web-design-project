@@ -2,7 +2,7 @@
     color: #bc2157;
     font-weight: bold;
     font-family: "Brush Script MT", cursive;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-decoration: none;
     display: inline-block;
     margin: 8px 20px;
@@ -45,7 +45,7 @@ nav {
 .home-review p {
     font-family: Tahoma, sans-serif;
     color: #bc2157;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .home-photo {
     flex: 5;
@@ -73,7 +73,7 @@ nav {
     list-style: none;
     color: #4c4c4c;
     font-family: Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 1.563rem;
     font-weight: bold;
     padding: 20px 50px 20px 0;
 }
@@ -202,13 +202,13 @@ nav {
 #skincare-quiz > p {
     font-family: Tahoma, sans-serif;
     color: #bc2157;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 #skincare-quiz div {
     font-family: Tahoma, sans-serif;
     color: #4c4c4c;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .quiz-submit {
     background-color: #bc2157;
@@ -222,7 +222,7 @@ nav {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .quiz-submit:hover {
     background-color: #8a0936;
@@ -372,7 +372,7 @@ iframe {
 .page-title h1 {
     color: #4c4c4c;
     font-family: Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
 }
 
@@ -411,13 +411,13 @@ iframe {
 }
 
 .page-content h2 {
-	font-size: 25px;
+	font-size: 1.563rem;
 	font-weight: bold;
 	color: #4c4c4c;
 }
 
 .page-content p {
-	font-size:  16px;
+	font-size:  1rem;
 	font-weight: normal;
 }
 
@@ -427,7 +427,7 @@ iframe {
 }
 
 .submit-button {
-	font-size: 16px;
+	font-size: 1rem;
     background-color: #bc2157;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
@@ -448,7 +448,7 @@ iframe {
 #askbox {
 	width: 50%;
 	height: 150px;
-	font-size: 16px;
+	font-size: 1rem;
 	padding: 15px 20px;
 	margin: 20px 0px;
 	box-sizing: border-box;
@@ -456,7 +456,7 @@ iframe {
 }
 
 #input-label {
-	font-size: 16px;
+	font-size: 1.563rem;
 	font-weight: bold;
 	color: #bc2157;
     font-family: Tahoma, sans-serif;
@@ -466,14 +466,14 @@ iframe {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .input-email {
   padding: 12px 20px;
   margin: 8px 0 20px 0px;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .red {
@@ -502,13 +502,13 @@ table {
 th {
 	background-color: #bc2157;
 	color: white;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 .cell-label {
 	background-color: #fffbed;
 	color: #4c4c4c;
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: bold;
 	text-align: left;
 }
@@ -609,7 +609,7 @@ th {
 	font-weight: bold;
 	font-family: Tahoma, sans-serif;
 	color: #4c4c4c;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 
@@ -622,7 +622,7 @@ th {
 	border-width: 20px 0px 0px 0px;
 	color: #4c4c4c;
 	font-family: Tahoma, sans-serif;
-	font-size: 30px;
+	font-size: 1.875rem;
 	font-weight: bold;
 }
 
@@ -644,13 +644,13 @@ th {
 .submission-content h1 {
     font-family: Tahoma, sans-serif;
     color: #4c4c4c;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 .submission-content p {
     font-family: Tahoma, sans-serif;
     color: #4c4c4c;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .submission-content button {
     background-color: #bc2157;
@@ -663,7 +663,7 @@ th {
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .submission-content button:hover {
     background-color: #8a0936;
