@@ -519,6 +519,10 @@ th {
 	margin-right: auto;
 }
 
+#custom-footer {
+	padding: 10px 40px 60px;
+    background-color: #f7c6d7
+
 #intro-text {
 	text-align: left;
 	width: 32%;
